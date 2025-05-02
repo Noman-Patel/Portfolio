@@ -9,7 +9,7 @@ export const Links:NavLinks[] = [
       label: "Home",
     },
     {
-      href: "mailto:khurramcali@gmail.com",
+      href: "mailto:Nomanpatel39424@gmail.com",
       label: "Contact",
     },
     {

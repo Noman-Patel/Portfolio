@@ -9,36 +9,38 @@ export default function Hero(){
             Nice to meet you! 👋
             <br />{" "}
             <span className="underline underline-offset-8 decoration-green-500">
-              I&apos;m Khurram.
+              I'm Noman.
             </span>
           </h1>
           <p className="md:w-96 text-lg text-gray-300">
-            Based in New York, I&apos;m a Fullstack developer passionate about
-            building a modern web application that users love.
+          Based in Pennsylvania, I'm a Fullstack Developer 
+          focused on crafting fast, intuitive web applications that solve real-world problems.
+
           </p>
             <Link
-            href="mailto:khurramcali@gmail.com"
+            href="mailto:Nomanpatel39424@gmail.com"
             className="inline-block group"
             >
             </Link>
         </div>
   
         <div className="relative">
-          <div className="w-72 h-72 space-y-3 -rotate-[30deg] relative">
-            <div className="flex gap-3 translate-x-8">
-              <div className="w-32 h-32 rounded-2xl bg-green-500" />
-              <div className="w-32 h-32 rounded-full bg-indigo-500" />
+          <div className="w-72 h-72 space-y-5 -rotate-[25deg] relative">
+            
+            {/* Row 1 */}
+            <div className="flex gap-4 translate-x-8">
+              <div className="w-28 h-28 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-[1.5rem] shadow-xl hover:scale-110 hover:rotate-6 transition-all duration-300" />
+              <div className="w-28 h-28 bg-gradient-to-tr from-purple-600 to-indigo-500 rounded-[20%_80%_50%_50%] shadow-xl hover:scale-110 hover:-rotate-6 transition-all duration-300" />
             </div>
-  
-            <div className="flex gap-3 -translate-x-8">
-              <div className="w-32 h-32 rounded-2xl bg-indigo-500" />
-              <div className="w-32 h-32 rounded-full bg-green-500" />
+
+            {/* Row 2 */}
+            <div className="flex gap-4 -translate-x-8">
+              <div className="w-28 h-28 bg-gradient-to-tr from-pink-500 to-rose-600 rounded-[50%_50%_20%_80%] shadow-xl hover:scale-110 hover:rotate-12 transition-all duration-300" />
+              <div className="w-28 h-28 bg-gradient-to-br from-teal-400 to-emerald-500 rounded-[80%_20%_50%_50%] shadow-xl hover:scale-110 hover:-rotate-12 transition-all duration-300" />
             </div>
-  
-            <div className="glow absolute top-[40%] right-[50%] -z-10" />
-          </div>
-          <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10">
-              <p>📢 Available for Work</p>
+
+            {/* Glow backdrop */}
+            <div className="absolute top-[40%] right-[50%] -z-10 w-64 h-64 bg-blue-400 blur-3xl opacity-20 rounded-full" />
           </div>
         </div>
       </div>
