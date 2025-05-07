@@ -10,7 +10,7 @@ export type SocialItem = {
 
 export const Socials: SocialItem[] = [
   {
-    link: "/KHURRAM.pdf",
+    link: "/Noman's Resume.pdf",
     label: "Resume",
     Icon: SiReaddotcv,
   },
