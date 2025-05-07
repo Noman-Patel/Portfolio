@@ -13,7 +13,7 @@ export default function Hero(){
             </span>
           </h1>
           <p className="md:w-96 text-lg text-gray-300">
-          Based in Pennsylvania, I&apos;sm a Fullstack Developer 
+          Based in Philadelphia, I&apos;m a Fullstack Developer 
           focused on crafting fast, intuitive web applications that solve real-world problems.
 
           </p>
