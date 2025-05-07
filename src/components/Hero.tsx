@@ -9,11 +9,11 @@ export default function Hero(){
             Nice to meet you! 👋
             <br />{" "}
             <span className="underline underline-offset-8 decoration-green-500">
-              I'm Noman.
+              I&apos;sm Noman.
             </span>
           </h1>
           <p className="md:w-96 text-lg text-gray-300">
-          Based in Pennsylvania, I'm a Fullstack Developer 
+          Based in Pennsylvania, I&apos;sm a Fullstack Developer 
           focused on crafting fast, intuitive web applications that solve real-world problems.
 
           </p>

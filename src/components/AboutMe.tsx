@@ -25,11 +25,11 @@ export default function AboutMe() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          I'm a passionate Fullstack Developer based in Pennsylvania who loves
+          I&apos;sm a passionate Fullstack Developer based in Pennsylvania who loves
           building responsive, performant web apps with modern frameworks like
           Next.js, Tailwind CSS, and React. My focus is on crafting clean UIs,
           intuitive user experiences, and solving real-world problems through
-          code. Whether I'm debugging in the terminal or designing a UI in Figma,
+          code. Whether I&apos;sm debugging in the terminal or designing a UI in Figma,
           I thrive in bringing ideas to life through development.
         </motion.p>
       </div>

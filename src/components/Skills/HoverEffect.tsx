@@ -4,7 +4,6 @@ import { IconType } from "react-icons";
 
 export const HoverEffect = ({
   items,
-  className,
 }: {
   items: {
     text: string;
@@ -12,7 +11,7 @@ export const HoverEffect = ({
   }[];
   className?: string;
 }) => {
-  let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
     <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 py-10">

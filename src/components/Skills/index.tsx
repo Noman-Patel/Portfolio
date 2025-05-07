@@ -3,7 +3,6 @@ import { HoverEffect } from "./HoverEffect";
 import { useState } from "react";
 import { FaAnglesDown, FaAnglesUp } from "react-icons/fa6";
 import { skills } from "./Data";
-import { motion } from 'framer-motion';
 import AllSkills from "./Framer";
 
 

@@ -1,8 +1,5 @@
-import Link from "next/link";
 import { ProjectList } from "./ProjectList";
 import { projects } from "./Data";
-import { motion } from "framer-motion";
-import AboutMe from "../AboutMe";
 import AllProjects from "./Framer";
 
 
