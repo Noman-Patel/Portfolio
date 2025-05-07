@@ -9,7 +9,7 @@ export default function Hero(){
             Nice to meet you! 👋
             <br />{" "}
             <span className="underline underline-offset-8 decoration-green-500">
-              I&apos;sm Noman.
+              I&apos;m Noman.
             </span>
           </h1>
           <p className="md:w-96 text-lg text-gray-300">
