@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { ProjectList } from "./ProjectList";
 import { projects } from "./Data";
+import { motion } from "framer-motion";
+import AboutMe from "../AboutMe";
+import AllProjects from "./Framer";
+
 
 
 
@@ -9,11 +13,8 @@ export default function Projects() {
     <>
       <div id="projects" className="h-10" />
       <div className="py-10 p-5 sm:p-0">
-        <h1
-          className="flex flex-col items-center justify-center -rotate-6"
-        >
-            All Projects 🎨
-        </h1>
+        <AllProjects/>
+
         <ProjectList projects={ projects} />
       </div>
     </>

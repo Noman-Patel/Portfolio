@@ -4,9 +4,8 @@ import { motion } from "framer-motion";
 
 export default function AboutMe() {
   return (
-    <section className="relative z-10 w-full py-24 px-5 md:px-10 bg-transparent">
-      <div className="max-w-5xl mx-auto text-white">
-        <motion.h2
+  <>
+    <motion.h2
           className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -14,6 +13,11 @@ export default function AboutMe() {
         >
           About Me
         </motion.h2>
+    <section className="relative z-10 w-full py-24 px-5 md:px-10 bg-transparent">
+
+        
+      <div className="max-w-5xl mx-auto text-white">
+
 
         <motion.p
           className="text-lg leading-relaxed text-gray-300 max-w-3xl"
@@ -30,5 +34,6 @@ export default function AboutMe() {
         </motion.p>
       </div>
     </section>
+  </>
   );
 }
