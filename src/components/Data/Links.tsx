@@ -9,8 +9,8 @@ export const Links:NavLinks[] = [
       label: "Home",
     },
     {
-      href: "mailto:Nomanpatel39424@gmail.com",
-      label: "Contact",
+      href: "/#aboutMe",
+      label: "About Me",
     },
     {
       href: "/#projects",
@@ -20,4 +20,10 @@ export const Links:NavLinks[] = [
       href: "/#skills",
       label: "Skills",
     },
+
+    {
+      href: "mailto:Nomanpatel39424@gmail.com",
+      label: "Contact",
+    },
+
   ];
