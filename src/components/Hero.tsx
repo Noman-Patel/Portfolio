@@ -24,8 +24,8 @@ export default function Hero(){
             </Link>
         </div>
   
-        <div className="relative">
-          <div className="w-72 h-72 space-y-5 -rotate-[25deg] relative">
+        <div className="flex justify-center md:justify-start pt-24 md:pt-0 pl-15 lg:pl-0">
+          <div className="w-72 h-72 space-y-5 -rotate-[25deg] relative ">
             
             <div className="flex gap-4 translate-x-8">
               <div className="w-28 h-28 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-[1.5rem] shadow-xl hover:scale-110 hover:rotate-6 transition-all duration-300" />
