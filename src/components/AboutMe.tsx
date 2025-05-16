@@ -19,11 +19,11 @@ export default function AboutMe() {
     <section className="relative z-10 w-full py-24 px-5 md:px-10 bg-transparent">
 
         
-      <div className="max-w-5xl mx-auto text-white">
+      <div className="max-w-5xl mx-auto ">
 
 
         <motion.p
-          className="text-lg leading-relaxed text-gray-300 max-w-3xl"
+          className="text-lg leading-relaxed  max-w-3xl text-[var(--text-secondary)]"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}

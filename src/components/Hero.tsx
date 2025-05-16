@@ -5,14 +5,14 @@ export default function Hero(){
     return(
         <div className="min-h-[85vh] flex items-center justify-between lg:gap-0 gap-14 lg:flex-row flex-col-reverse animate-move-up">
         <div className="space-y-10 text-center lg:text-left">
-          <h1 className="text-4xl lg:text-7xl font-bold">
+          <h1 className="text-4xl text-[var(--text-primary)] lg:text-7xl font-bold">
             Nice to meet you! 👋
             <br />{" "}
             <span className="underline underline-offset-8 decoration-green-500">
               I&apos;m Noman.
             </span>
           </h1>
-          <p className="md:w-96 text-lg text-gray-300">
+          <p className="md:w-96 text-lg text-[var(--text-secondary)]">
           Based in Philadelphia, I&apos;m a Fullstack Developer 
           focused on crafting fast, intuitive web applications that solve real-world problems.
 

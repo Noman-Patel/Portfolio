@@ -17,7 +17,7 @@ export default function Skills() {
         <HoverEffect items={slicedSkills} />
         <div className="flex justify-center">
           <button
-            className="bg-green-500 px-3 py-1 rounded transition hover:bg-green-700 font-semibold tracking-tight flex gap-3 items-center"
+            className="bg-green-500 px-3 py-1 rounded transition hover:bg-green-700 font-semibold tracking-tight flex gap-3 items-center "
             onClick={() => {
               if (slicedSkills.length === skills.length) {
                 setSlicedSkills(skills.slice(0, 12));
